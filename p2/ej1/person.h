@@ -36,7 +36,7 @@ class Person{
         
         bool set_entry_day(int entry_year);
 
-        std::string get_full_address();
+        std::string get_full_address(); 
 };
 
 #endif
