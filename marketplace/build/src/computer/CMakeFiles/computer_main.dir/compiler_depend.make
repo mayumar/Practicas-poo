@@ -153,7 +153,7 @@ src/computer/CMakeFiles/computer_main.dir/computer_main.cc.o: ../src/computer/co
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  ../src/computer/product.h \
+  ../src/product/product.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
@@ -243,6 +243,8 @@ src/computer/CMakeFiles/computer_main.dir/computer_main.cc.o: ../src/computer/co
 
 /usr/include/c++/11/cerrno:
 
+../src/product/product.h:
+
 /usr/include/stdio.h:
 
 /usr/include/c++/11/cstdio:
@@ -296,8 +298,6 @@ src/computer/CMakeFiles/computer_main.dir/computer_main.cc.o: ../src/computer/co
 /usr/include/x86_64-linux-gnu/bits/sched.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
-
-../src/computer/product.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 

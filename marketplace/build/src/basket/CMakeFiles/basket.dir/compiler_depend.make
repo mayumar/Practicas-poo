@@ -158,7 +158,7 @@ src/basket/CMakeFiles/basket.dir/basket.cc.o: ../src/basket/basket.cc \
   /usr/include/c++/11/bits/allocated_ptr.h \
   /usr/include/c++/11/ext/aligned_buffer.h \
   /usr/include/c++/11/bits/list.tcc \
-  ../src/basket/product.h
+  ../src/product/product.h
 
 
 /usr/include/c++/11/bits/list.tcc:
@@ -178,6 +178,8 @@ src/basket/CMakeFiles/basket.dir/basket.cc.o: ../src/basket/basket.cc \
 /usr/include/errno.h:
 
 /usr/include/c++/11/cerrno:
+
+../src/product/product.h:
 
 /usr/include/stdio.h:
 
@@ -290,8 +292,6 @@ src/basket/CMakeFiles/basket.dir/basket.cc.o: ../src/basket/basket.cc \
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-../src/basket/product.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 

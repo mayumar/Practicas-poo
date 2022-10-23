@@ -1,10 +1,10 @@
-Start testing: Oct 11 09:23 CEST
+Start testing: Oct 23 14:24 CEST
 ----------------------------------------------------------
 1/5 Testing: person_gtests
 1/5 Test: person_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/person_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"person_gtests" start time: Oct 11 09:23 CEST
+"person_gtests" start time: Oct 23 14:24 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -31,7 +31,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Oct 11 09:23 CEST
+"person_gtests" end time: Oct 23 14:24 CEST
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -39,7 +39,7 @@ Test Passed.
 2/5 Test: product_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/product_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"product_gtests" start time: Oct 11 09:23 CEST
+"product_gtests" start time: Oct 23 14:24 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -60,7 +60,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"product_gtests" end time: Oct 11 09:23 CEST
+"product_gtests" end time: Oct 23 14:24 CEST
 "product_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -68,7 +68,7 @@ Test Passed.
 3/5 Test: tv_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/tv_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"tv_gtests" start time: Oct 11 09:23 CEST
+"tv_gtests" start time: Oct 23 14:24 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -91,7 +91,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"tv_gtests" end time: Oct 11 09:23 CEST
+"tv_gtests" end time: Oct 23 14:24 CEST
 "tv_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -99,7 +99,7 @@ Test Passed.
 4/5 Test: computer_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/computer_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"computer_gtests" start time: Oct 11 09:23 CEST
+"computer_gtests" start time: Oct 23 14:24 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -120,7 +120,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"computer_gtests" end time: Oct 11 09:23 CEST
+"computer_gtests" end time: Oct 23 14:24 CEST
 "computer_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -128,7 +128,7 @@ Test Passed.
 5/5 Test: basket_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/basket_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"basket_gtests" start time: Oct 11 09:23 CEST
+"basket_gtests" start time: Oct 23 14:24 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -155,8 +155,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket_gtests" end time: Oct 11 09:23 CEST
+"basket_gtests" end time: Oct 23 14:24 CEST
 "basket_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 11 09:23 CEST
+End testing: Oct 23 14:24 CEST

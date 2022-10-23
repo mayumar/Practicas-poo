@@ -158,7 +158,7 @@ tests/CMakeFiles/basket_test.dir/basket_test.cc.o: ../tests/basket_test.cc \
   /usr/include/c++/11/bits/allocated_ptr.h \
   /usr/include/c++/11/ext/aligned_buffer.h \
   /usr/include/c++/11/bits/list.tcc \
-  ../src/basket/product.h \
+  ../src/product/product.h \
   _deps/googletest-src/googletest/include/gtest/gtest.h \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/limits \
@@ -624,8 +624,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-message.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-../src/basket/product.h:
-
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
@@ -805,6 +803,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-param-test.h:
 /usr/include/c++/11/cstdio:
 
 /usr/include/stdio.h:
+
+../src/product/product.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 

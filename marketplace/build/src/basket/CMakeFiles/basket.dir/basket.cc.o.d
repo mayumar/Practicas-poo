@@ -133,5 +133,17 @@ src/basket/CMakeFiles/basket.dir/basket.cc.o: \
  /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/ext/aligned_buffer.h \
- /usr/include/c++/11/bits/list.tcc \
+ /usr/include/c++/11/bits/list.tcc /usr/include/c++/11/map \
+ /usr/include/c++/11/bits/stl_tree.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/stl_map.h /usr/include/c++/11/tuple \
+ /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/invoke.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
+ /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc \
  /home/mayumar/Escritorio/practicaspoo/marketplace/src/basket/../product/product.h

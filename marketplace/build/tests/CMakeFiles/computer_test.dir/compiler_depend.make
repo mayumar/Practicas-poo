@@ -153,7 +153,7 @@ tests/CMakeFiles/computer_test.dir/computer_test.cc.o: ../tests/computer_test.cc
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
-  ../src/computer/product.h \
+  ../src/product/product.h \
   _deps/googletest-src/googletest/include/gtest/gtest.h \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/limits \
@@ -709,8 +709,6 @@ _deps/googletest-src/googletest/include/gtest/gtest-message.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_funcs.h:
 
-../src/computer/product.h:
-
 /usr/include/c++/11/ext/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/sched.h:
@@ -800,6 +798,8 @@ _deps/googletest-src/googletest/include/gtest/gtest-param-test.h:
 /usr/include/c++/11/cstdio:
 
 /usr/include/stdio.h:
+
+../src/product/product.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 

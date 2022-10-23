@@ -4,7 +4,7 @@
 
 int main(){
     Basket basket("GRTE6778");
-    Product p1("HSSER5567"), p2("ET678");
+    Product p1("HSSER5567", "Producto1", 5), p2("ET678", "Producto2", 6);
     bool deleted;
 
     basket.add_product(p1);
