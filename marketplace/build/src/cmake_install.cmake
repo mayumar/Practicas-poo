@@ -67,3 +67,13 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/basket/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/client/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/seller/cmake_install.cmake")
+endif()
+

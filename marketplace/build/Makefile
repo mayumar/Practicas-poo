@@ -302,6 +302,58 @@ basket_main/fast:
 .PHONY : basket_main/fast
 
 #=============================================================================
+# Target rules for targets named client
+
+# Build rule for target.
+client: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client
+.PHONY : client
+
+# fast build rule for target.
+client/fast:
+	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client.dir/build.make src/client/CMakeFiles/client.dir/build
+.PHONY : client/fast
+
+#=============================================================================
+# Target rules for targets named client_main
+
+# Build rule for target.
+client_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client_main
+.PHONY : client_main
+
+# fast build rule for target.
+client_main/fast:
+	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_main.dir/build.make src/client/CMakeFiles/client_main.dir/build
+.PHONY : client_main/fast
+
+#=============================================================================
+# Target rules for targets named seller
+
+# Build rule for target.
+seller: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seller
+.PHONY : seller
+
+# fast build rule for target.
+seller/fast:
+	$(MAKE) $(MAKESILENT) -f src/seller/CMakeFiles/seller.dir/build.make src/seller/CMakeFiles/seller.dir/build
+.PHONY : seller/fast
+
+#=============================================================================
+# Target rules for targets named seller_main
+
+# Build rule for target.
+seller_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seller_main
+.PHONY : seller_main
+
+# fast build rule for target.
+seller_main/fast:
+	$(MAKE) $(MAKESILENT) -f src/seller/CMakeFiles/seller_main.dir/build.make src/seller/CMakeFiles/seller_main.dir/build
+.PHONY : seller_main/fast
+
+#=============================================================================
 # Target rules for targets named person_test
 
 # Build rule for target.
@@ -448,6 +500,8 @@ help:
 	@echo "... basket_main"
 	@echo "... basket_test"
 	@echo "... basket_test2"
+	@echo "... client"
+	@echo "... client_main"
 	@echo "... computer"
 	@echo "... computer_main"
 	@echo "... computer_test"
@@ -461,6 +515,8 @@ help:
 	@echo "... product"
 	@echo "... product_main"
 	@echo "... product_test"
+	@echo "... seller"
+	@echo "... seller_main"
 	@echo "... tv"
 	@echo "... tv_main"
 	@echo "... tv_test"
