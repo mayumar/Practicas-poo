@@ -2,6 +2,7 @@
 #include <list>
 #include <map>
 #include <vector>
+#include <iostream>
 #include "../product/product.h"
 
 bool Basket::delete_product(Product product){
@@ -72,12 +73,21 @@ bool Basket::find_in_list(std::string id){
 std::vector<std::string> Basket::get_ids(){
     std::vector<std::string> product_list;
     std::list<Product>::iterator it;
-    int i=0;
 
     for(it=product_list_.begin(); it!=product_list_.end(); it++){
-        product_list[i]=it->get_id();
-        i++;
+        product_list.push_back(it->get_id());
     }
 
     return product_list;
+}
+
+std::vector<int> Basket::get_qs(){
+    std::vector<int> product_quantity;
+    std::list<Product>::iterator it;
+
+    for(it=product_list_.begin(); it!=product_list_.end(); it++){
+        product_quantity.push_back(product_quantity_[it->get_id()]);
+    }
+
+    return product_quantity;
 }

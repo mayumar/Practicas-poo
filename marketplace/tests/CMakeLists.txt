@@ -37,8 +37,14 @@ target_link_libraries(computer_test
  PRIVATE GTest::GTest computer)
 add_test(computer_gtests computer_test)
 
-# Testing basket library
+# Testing basket library 1
 add_executable(basket_test basket_test.cc)
 target_link_libraries(basket_test
  PRIVATE GTest::GTest basket)
 add_test(basket_gtests basket_test)
+
+# Testing basket library 2
+add_executable(basket_test2 basket_test2.cc)
+target_link_libraries(basket_test2
+ PRIVATE GTest::GTest basket product tv computer)
+add_test(basket_gtests2 basket_test2)

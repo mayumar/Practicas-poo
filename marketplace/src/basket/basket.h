@@ -16,7 +16,7 @@ class Basket{
         std::map<std::string, int> product_quantity_;
 
     public:
-        Basket(std::string id): id_(id){}
+        Basket(std::string id): id_(id){total_=0;}
 
         inline std::string get_id() const {return id_;}
         inline float get_total() const {return total_;}
@@ -29,6 +29,7 @@ class Basket{
         inline int get_size(){return product_list_.size();}
         bool find_in_list(std::string id);
         std::vector<std::string> get_ids();
+        std::vector<int> get_qs();
 
 };
 

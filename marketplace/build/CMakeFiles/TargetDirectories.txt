@@ -62,6 +62,7 @@
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/tv_test.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/computer_test.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/basket_test.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/basket_test2.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/test.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/edit_cache.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/rebuild_cache.dir

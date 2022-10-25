@@ -241,6 +241,20 @@ basket_test/fast:
 	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/build
 .PHONY : basket_test/fast
 
+# Convenience name for target.
+tests/CMakeFiles/basket_test2.dir/rule:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/basket_test2.dir/rule
+.PHONY : tests/CMakeFiles/basket_test2.dir/rule
+
+# Convenience name for target.
+basket_test2: tests/CMakeFiles/basket_test2.dir/rule
+.PHONY : basket_test2
+
+# fast build rule for target.
+basket_test2/fast:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/basket_test2.dir/build.make tests/CMakeFiles/basket_test2.dir/build
+.PHONY : basket_test2/fast
+
 basket_test.o: basket_test.cc.o
 .PHONY : basket_test.o
 
@@ -264,6 +278,30 @@ basket_test.s: basket_test.cc.s
 basket_test.cc.s:
 	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/basket_test.dir/build.make tests/CMakeFiles/basket_test.dir/basket_test.cc.s
 .PHONY : basket_test.cc.s
+
+basket_test2.o: basket_test2.cc.o
+.PHONY : basket_test2.o
+
+# target to build an object file
+basket_test2.cc.o:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/basket_test2.dir/build.make tests/CMakeFiles/basket_test2.dir/basket_test2.cc.o
+.PHONY : basket_test2.cc.o
+
+basket_test2.i: basket_test2.cc.i
+.PHONY : basket_test2.i
+
+# target to preprocess a source file
+basket_test2.cc.i:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/basket_test2.dir/build.make tests/CMakeFiles/basket_test2.dir/basket_test2.cc.i
+.PHONY : basket_test2.cc.i
+
+basket_test2.s: basket_test2.cc.s
+.PHONY : basket_test2.s
+
+# target to generate assembly for a file
+basket_test2.cc.s:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/basket_test2.dir/build.make tests/CMakeFiles/basket_test2.dir/basket_test2.cc.s
+.PHONY : basket_test2.cc.s
 
 computer_test.o: computer_test.cc.o
 .PHONY : computer_test.o
@@ -375,6 +413,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... basket_test"
+	@echo "... basket_test2"
 	@echo "... computer_test"
 	@echo "... person_test"
 	@echo "... product_test"
@@ -382,6 +421,9 @@ help:
 	@echo "... basket_test.o"
 	@echo "... basket_test.i"
 	@echo "... basket_test.s"
+	@echo "... basket_test2.o"
+	@echo "... basket_test2.i"
+	@echo "... basket_test2.s"
 	@echo "... computer_test.o"
 	@echo "... computer_test.i"
 	@echo "... computer_test.s"

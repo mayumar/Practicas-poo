@@ -367,6 +367,19 @@ basket_test/fast:
 .PHONY : basket_test/fast
 
 #=============================================================================
+# Target rules for targets named basket_test2
+
+# Build rule for target.
+basket_test2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 basket_test2
+.PHONY : basket_test2
+
+# fast build rule for target.
+basket_test2/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/basket_test2.dir/build.make tests/CMakeFiles/basket_test2.dir/build
+.PHONY : basket_test2/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -434,6 +447,7 @@ help:
 	@echo "... basket"
 	@echo "... basket_main"
 	@echo "... basket_test"
+	@echo "... basket_test2"
 	@echo "... computer"
 	@echo "... computer_main"
 	@echo "... computer_test"
