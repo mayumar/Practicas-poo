@@ -48,3 +48,15 @@ add_executable(basket_test2 basket_test2.cc)
 target_link_libraries(basket_test2
  PRIVATE GTest::GTest basket product tv computer)
 add_test(basket_gtests2 basket_test2)
+
+# Testing client library
+add_executable(client_test client_test.cc)
+target_link_libraries(client_test
+ PRIVATE GTest::GTest client person)
+add_test(client_gtests client_test)
+
+# Testing seller library
+add_executable(seller_test seller_test.cc)
+target_link_libraries(seller_test
+ PRIVATE GTest::GTest seller person)
+add_test(seller_gtests seller_test)

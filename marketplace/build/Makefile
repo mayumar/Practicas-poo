@@ -432,6 +432,32 @@ basket_test2/fast:
 .PHONY : basket_test2/fast
 
 #=============================================================================
+# Target rules for targets named client_test
+
+# Build rule for target.
+client_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client_test
+.PHONY : client_test
+
+# fast build rule for target.
+client_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/client_test.dir/build.make tests/CMakeFiles/client_test.dir/build
+.PHONY : client_test/fast
+
+#=============================================================================
+# Target rules for targets named seller_test
+
+# Build rule for target.
+seller_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 seller_test
+.PHONY : seller_test
+
+# fast build rule for target.
+seller_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/seller_test.dir/build.make tests/CMakeFiles/seller_test.dir/build
+.PHONY : seller_test/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -502,6 +528,7 @@ help:
 	@echo "... basket_test2"
 	@echo "... client"
 	@echo "... client_main"
+	@echo "... client_test"
 	@echo "... computer"
 	@echo "... computer_main"
 	@echo "... computer_test"
@@ -517,6 +544,7 @@ help:
 	@echo "... product_test"
 	@echo "... seller"
 	@echo "... seller_main"
+	@echo "... seller_test"
 	@echo "... tv"
 	@echo "... tv_main"
 	@echo "... tv_test"

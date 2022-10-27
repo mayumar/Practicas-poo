@@ -255,6 +255,34 @@ basket_test2/fast:
 	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/basket_test2.dir/build.make tests/CMakeFiles/basket_test2.dir/build
 .PHONY : basket_test2/fast
 
+# Convenience name for target.
+tests/CMakeFiles/client_test.dir/rule:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/client_test.dir/rule
+.PHONY : tests/CMakeFiles/client_test.dir/rule
+
+# Convenience name for target.
+client_test: tests/CMakeFiles/client_test.dir/rule
+.PHONY : client_test
+
+# fast build rule for target.
+client_test/fast:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/client_test.dir/build.make tests/CMakeFiles/client_test.dir/build
+.PHONY : client_test/fast
+
+# Convenience name for target.
+tests/CMakeFiles/seller_test.dir/rule:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/seller_test.dir/rule
+.PHONY : tests/CMakeFiles/seller_test.dir/rule
+
+# Convenience name for target.
+seller_test: tests/CMakeFiles/seller_test.dir/rule
+.PHONY : seller_test
+
+# fast build rule for target.
+seller_test/fast:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/seller_test.dir/build.make tests/CMakeFiles/seller_test.dir/build
+.PHONY : seller_test/fast
+
 basket_test.o: basket_test.cc.o
 .PHONY : basket_test.o
 
@@ -302,6 +330,30 @@ basket_test2.s: basket_test2.cc.s
 basket_test2.cc.s:
 	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/basket_test2.dir/build.make tests/CMakeFiles/basket_test2.dir/basket_test2.cc.s
 .PHONY : basket_test2.cc.s
+
+client_test.o: client_test.cc.o
+.PHONY : client_test.o
+
+# target to build an object file
+client_test.cc.o:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/client_test.dir/build.make tests/CMakeFiles/client_test.dir/client_test.cc.o
+.PHONY : client_test.cc.o
+
+client_test.i: client_test.cc.i
+.PHONY : client_test.i
+
+# target to preprocess a source file
+client_test.cc.i:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/client_test.dir/build.make tests/CMakeFiles/client_test.dir/client_test.cc.i
+.PHONY : client_test.cc.i
+
+client_test.s: client_test.cc.s
+.PHONY : client_test.s
+
+# target to generate assembly for a file
+client_test.cc.s:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/client_test.dir/build.make tests/CMakeFiles/client_test.dir/client_test.cc.s
+.PHONY : client_test.cc.s
 
 computer_test.o: computer_test.cc.o
 .PHONY : computer_test.o
@@ -375,6 +427,30 @@ product_test.cc.s:
 	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/product_test.dir/build.make tests/CMakeFiles/product_test.dir/product_test.cc.s
 .PHONY : product_test.cc.s
 
+seller_test.o: seller_test.cc.o
+.PHONY : seller_test.o
+
+# target to build an object file
+seller_test.cc.o:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/seller_test.dir/build.make tests/CMakeFiles/seller_test.dir/seller_test.cc.o
+.PHONY : seller_test.cc.o
+
+seller_test.i: seller_test.cc.i
+.PHONY : seller_test.i
+
+# target to preprocess a source file
+seller_test.cc.i:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/seller_test.dir/build.make tests/CMakeFiles/seller_test.dir/seller_test.cc.i
+.PHONY : seller_test.cc.i
+
+seller_test.s: seller_test.cc.s
+.PHONY : seller_test.s
+
+# target to generate assembly for a file
+seller_test.cc.s:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/seller_test.dir/build.make tests/CMakeFiles/seller_test.dir/seller_test.cc.s
+.PHONY : seller_test.cc.s
+
 tv_test.o: tv_test.cc.o
 .PHONY : tv_test.o
 
@@ -414,9 +490,11 @@ help:
 	@echo "... test"
 	@echo "... basket_test"
 	@echo "... basket_test2"
+	@echo "... client_test"
 	@echo "... computer_test"
 	@echo "... person_test"
 	@echo "... product_test"
+	@echo "... seller_test"
 	@echo "... tv_test"
 	@echo "... basket_test.o"
 	@echo "... basket_test.i"
@@ -424,6 +502,9 @@ help:
 	@echo "... basket_test2.o"
 	@echo "... basket_test2.i"
 	@echo "... basket_test2.s"
+	@echo "... client_test.o"
+	@echo "... client_test.i"
+	@echo "... client_test.s"
 	@echo "... computer_test.o"
 	@echo "... computer_test.i"
 	@echo "... computer_test.s"
@@ -433,6 +514,9 @@ help:
 	@echo "... product_test.o"
 	@echo "... product_test.i"
 	@echo "... product_test.s"
+	@echo "... seller_test.o"
+	@echo "... seller_test.i"
+	@echo "... seller_test.s"
 	@echo "... tv_test.o"
 	@echo "... tv_test.i"
 	@echo "... tv_test.s"

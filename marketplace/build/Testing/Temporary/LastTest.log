@@ -1,10 +1,10 @@
-Start testing: Oct 25 21:38 CEST
+Start testing: Oct 27 12:36 CEST
 ----------------------------------------------------------
-1/6 Testing: person_gtests
-1/6 Test: person_gtests
+1/8 Testing: person_gtests
+1/8 Test: person_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/person_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"person_gtests" start time: Oct 25 21:38 CEST
+"person_gtests" start time: Oct 27 12:36 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -31,15 +31,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Oct 25 21:38 CEST
+"person_gtests" end time: Oct 27 12:36 CEST
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/6 Testing: product_gtests
-2/6 Test: product_gtests
+2/8 Testing: product_gtests
+2/8 Test: product_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/product_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"product_gtests" start time: Oct 25 21:38 CEST
+"product_gtests" start time: Oct 27 12:36 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -60,15 +60,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"product_gtests" end time: Oct 25 21:38 CEST
+"product_gtests" end time: Oct 27 12:36 CEST
 "product_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/6 Testing: tv_gtests
-3/6 Test: tv_gtests
+3/8 Testing: tv_gtests
+3/8 Test: tv_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/tv_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"tv_gtests" start time: Oct 25 21:38 CEST
+"tv_gtests" start time: Oct 27 12:36 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -91,15 +91,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"tv_gtests" end time: Oct 25 21:38 CEST
+"tv_gtests" end time: Oct 27 12:36 CEST
 "tv_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/6 Testing: computer_gtests
-4/6 Test: computer_gtests
+4/8 Testing: computer_gtests
+4/8 Test: computer_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/computer_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"computer_gtests" start time: Oct 25 21:38 CEST
+"computer_gtests" start time: Oct 27 12:36 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -120,15 +120,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"computer_gtests" end time: Oct 25 21:38 CEST
+"computer_gtests" end time: Oct 27 12:36 CEST
 "computer_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/6 Testing: basket_gtests
-5/6 Test: basket_gtests
+5/8 Testing: basket_gtests
+5/8 Test: basket_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/basket_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"basket_gtests" start time: Oct 25 21:38 CEST
+"basket_gtests" start time: Oct 27 12:36 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -155,15 +155,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket_gtests" end time: Oct 25 21:38 CEST
+"basket_gtests" end time: Oct 27 12:36 CEST
 "basket_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-6/6 Testing: basket_gtests2
-6/6 Test: basket_gtests2
+6/8 Testing: basket_gtests2
+6/8 Test: basket_gtests2
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/basket_test2"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"basket_gtests2" start time: Oct 25 21:38 CEST
+"basket_gtests2" start time: Oct 27 12:36 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 11 tests from 1 test suite.
@@ -200,8 +200,86 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket_gtests2" end time: Oct 25 21:38 CEST
+"basket_gtests2" end time: Oct 27 12:36 CEST
 "basket_gtests2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 25 21:38 CEST
+7/8 Testing: client_gtests
+7/8 Test: client_gtests
+Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/client_test"
+Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
+"client_gtests" start time: Oct 27 12:36 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from Client
+[ RUN      ] Client.ConstructorDefaultParam
+[       OK ] Client.ConstructorDefaultParam (0 ms)
+[ RUN      ] Client.ConstructorParam
+[       OK ] Client.ConstructorParam (0 ms)
+[ RUN      ] Client.TestGetNameSurname
+[       OK ] Client.TestGetNameSurname (0 ms)
+[ RUN      ] Client.Entry_year_test
+[       OK ] Client.Entry_year_test (0 ms)
+[ RUN      ] Client.Function_get_full_address
+[       OK ] Client.Function_get_full_address (0 ms)
+[ RUN      ] Client.DefaultCopyConstructor
+[       OK ] Client.DefaultCopyConstructor (0 ms)
+[ RUN      ] Client.DefaultEqualOperator
+[       OK ] Client.DefaultEqualOperator (0 ms)
+[ RUN      ] Client.Premium
+[       OK ] Client.Premium (0 ms)
+[----------] 8 tests from Client (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"client_gtests" end time: Oct 27 12:36 CEST
+"client_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: seller_gtests
+8/8 Test: seller_gtests
+Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/seller_test"
+Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
+"seller_gtests" start time: Oct 27 12:36 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from Seller
+[ RUN      ] Seller.ConstructorDefaultParam
+[       OK ] Seller.ConstructorDefaultParam (0 ms)
+[ RUN      ] Seller.ConstructorParam
+[       OK ] Seller.ConstructorParam (0 ms)
+[ RUN      ] Seller.TestGetNameSurname
+[       OK ] Seller.TestGetNameSurname (0 ms)
+[ RUN      ] Seller.Entry_year_test
+[       OK ] Seller.Entry_year_test (0 ms)
+[ RUN      ] Seller.Function_get_full_address
+[       OK ] Seller.Function_get_full_address (0 ms)
+[ RUN      ] Seller.DefaultCopyConstructor
+[       OK ] Seller.DefaultCopyConstructor (0 ms)
+[ RUN      ] Seller.DefaultEqualOperator
+[       OK ] Seller.DefaultEqualOperator (0 ms)
+[ RUN      ] Seller.Sector
+[       OK ] Seller.Sector (0 ms)
+[----------] 8 tests from Seller (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"seller_gtests" end time: Oct 27 12:36 CEST
+"seller_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 27 12:36 CEST

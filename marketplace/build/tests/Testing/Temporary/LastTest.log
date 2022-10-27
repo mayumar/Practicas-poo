@@ -1,10 +1,10 @@
-Start testing: Oct 23 14:24 CEST
+Start testing: Oct 27 12:27 CEST
 ----------------------------------------------------------
-1/5 Testing: person_gtests
-1/5 Test: person_gtests
+1/8 Testing: person_gtests
+1/8 Test: person_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/person_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"person_gtests" start time: Oct 23 14:24 CEST
+"person_gtests" start time: Oct 27 12:27 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -31,15 +31,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Oct 23 14:24 CEST
+"person_gtests" end time: Oct 27 12:27 CEST
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-2/5 Testing: product_gtests
-2/5 Test: product_gtests
+2/8 Testing: product_gtests
+2/8 Test: product_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/product_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"product_gtests" start time: Oct 23 14:24 CEST
+"product_gtests" start time: Oct 27 12:27 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -60,15 +60,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"product_gtests" end time: Oct 23 14:24 CEST
+"product_gtests" end time: Oct 27 12:27 CEST
 "product_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-3/5 Testing: tv_gtests
-3/5 Test: tv_gtests
+3/8 Testing: tv_gtests
+3/8 Test: tv_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/tv_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"tv_gtests" start time: Oct 23 14:24 CEST
+"tv_gtests" start time: Oct 27 12:27 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -91,15 +91,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"tv_gtests" end time: Oct 23 14:24 CEST
+"tv_gtests" end time: Oct 27 12:27 CEST
 "tv_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-4/5 Testing: computer_gtests
-4/5 Test: computer_gtests
+4/8 Testing: computer_gtests
+4/8 Test: computer_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/computer_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"computer_gtests" start time: Oct 23 14:24 CEST
+"computer_gtests" start time: Oct 27 12:27 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -120,15 +120,15 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"computer_gtests" end time: Oct 23 14:24 CEST
+"computer_gtests" end time: Oct 27 12:27 CEST
 "computer_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-5/5 Testing: basket_gtests
-5/5 Test: basket_gtests
+5/8 Testing: basket_gtests
+5/8 Test: basket_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/basket_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"basket_gtests" start time: Oct 23 14:24 CEST
+"basket_gtests" start time: Oct 27 12:27 CEST
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -155,8 +155,189 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket_gtests" end time: Oct 23 14:24 CEST
+"basket_gtests" end time: Oct 27 12:27 CEST
 "basket_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Oct 23 14:24 CEST
+6/8 Testing: basket_gtests2
+6/8 Test: basket_gtests2
+Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/basket_test2"
+Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
+"basket_gtests2" start time: Oct 27 12:27 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 11 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 11 tests from Basket
+[ RUN      ] Basket.ZeroProducts
+[       OK ] Basket.ZeroProducts (0 ms)
+[ RUN      ] Basket.AddProduct
+[       OK ] Basket.AddProduct (0 ms)
+[ RUN      ] Basket.AddMoreProducts
+[       OK ] Basket.AddMoreProducts (0 ms)
+[ RUN      ] Basket.DeleteProductsP
+[       OK ] Basket.DeleteProductsP (0 ms)
+[ RUN      ] Basket.DeleteProductsId
+[       OK ] Basket.DeleteProductsId (0 ms)
+[ RUN      ] Basket.DeleteProductsNoId
+[       OK ] Basket.DeleteProductsNoId (0 ms)
+[ RUN      ] Basket.AddAndDeleteProducts
+[       OK ] Basket.AddAndDeleteProducts (0 ms)
+[ RUN      ] Basket.BasketTotalZero
+[       OK ] Basket.BasketTotalZero (0 ms)
+[ RUN      ] Basket.BasketTotal
+[       OK ] Basket.BasketTotal (0 ms)
+[ RUN      ] Basket.BasketTotalDelete
+[       OK ] Basket.BasketTotalDelete (0 ms)
+[ RUN      ] Basket.BasketTotalDeleteQuantities
+[       OK ] Basket.BasketTotalDeleteQuantities (0 ms)
+[----------] 11 tests from Basket (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 11 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 11 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"basket_gtests2" end time: Oct 27 12:27 CEST
+"basket_gtests2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: client_gtests
+7/8 Test: client_gtests
+Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/client_test"
+Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
+"client_gtests" start time: Oct 27 12:27 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from Client
+[ RUN      ] Client.ConstructorDefaultParam
+[       OK ] Client.ConstructorDefaultParam (0 ms)
+[ RUN      ] Client.ConstructorParam
+/home/mayumar/Escritorio/practicaspoo/marketplace/tests/client_test.cc:33: Failure
+Expected equality of these values:
+  2021
+  p.get_entry_year()
+    Which is: 0
+[  FAILED  ] Client.ConstructorParam (0 ms)
+[ RUN      ] Client.TestGetNameSurname
+[       OK ] Client.TestGetNameSurname (0 ms)
+[ RUN      ] Client.Entry_year_test
+[       OK ] Client.Entry_year_test (0 ms)
+[ RUN      ] Client.Function_get_full_address
+[       OK ] Client.Function_get_full_address (0 ms)
+[ RUN      ] Client.DefaultCopyConstructor
+/home/mayumar/Escritorio/practicaspoo/marketplace/tests/client_test.cc:81: Failure
+Expected equality of these values:
+  2021
+  q.get_entry_year()
+    Which is: 0
+/home/mayumar/Escritorio/practicaspoo/marketplace/tests/client_test.cc:90: Failure
+Expected equality of these values:
+  2021
+  r.get_entry_year()
+    Which is: 0
+[  FAILED  ] Client.DefaultCopyConstructor (0 ms)
+[ RUN      ] Client.DefaultEqualOperator
+/home/mayumar/Escritorio/practicaspoo/marketplace/tests/client_test.cc:104: Failure
+Expected equality of these values:
+  2021
+  q.get_entry_year()
+    Which is: 0
+[  FAILED  ] Client.DefaultEqualOperator (0 ms)
+[ RUN      ] Client.Premium
+[       OK ] Client.Premium (0 ms)
+[----------] 8 tests from Client (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 5 tests.
+[  FAILED  ] 3 tests, listed below:
+[  FAILED  ] Client.ConstructorParam
+[  FAILED  ] Client.DefaultCopyConstructor
+[  FAILED  ] Client.DefaultEqualOperator
+
+ 3 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"client_gtests" end time: Oct 27 12:27 CEST
+"client_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: seller_gtests
+8/8 Test: seller_gtests
+Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/seller_test"
+Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
+"seller_gtests" start time: Oct 27 12:27 CEST
+Output:
+----------------------------------------------------------
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from Seller
+[ RUN      ] Seller.ConstructorDefaultParam
+[       OK ] Seller.ConstructorDefaultParam (0 ms)
+[ RUN      ] Seller.ConstructorParam
+/home/mayumar/Escritorio/practicaspoo/marketplace/tests/seller_test.cc:33: Failure
+Expected equality of these values:
+  2021
+  p.get_entry_year()
+    Which is: 0
+[  FAILED  ] Seller.ConstructorParam (0 ms)
+[ RUN      ] Seller.TestGetNameSurname
+[       OK ] Seller.TestGetNameSurname (0 ms)
+[ RUN      ] Seller.Entry_year_test
+[       OK ] Seller.Entry_year_test (0 ms)
+[ RUN      ] Seller.Function_get_full_address
+[       OK ] Seller.Function_get_full_address (0 ms)
+[ RUN      ] Seller.DefaultCopyConstructor
+/home/mayumar/Escritorio/practicaspoo/marketplace/tests/seller_test.cc:81: Failure
+Expected equality of these values:
+  2021
+  q.get_entry_year()
+    Which is: 0
+/home/mayumar/Escritorio/practicaspoo/marketplace/tests/seller_test.cc:90: Failure
+Expected equality of these values:
+  2021
+  r.get_entry_year()
+    Which is: 0
+[  FAILED  ] Seller.DefaultCopyConstructor (0 ms)
+[ RUN      ] Seller.DefaultEqualOperator
+/home/mayumar/Escritorio/practicaspoo/marketplace/tests/seller_test.cc:104: Failure
+Expected equality of these values:
+  2021
+  q.get_entry_year()
+    Which is: 0
+[  FAILED  ] Seller.DefaultEqualOperator (0 ms)
+[ RUN      ] Seller.Sector
+/home/mayumar/Escritorio/practicaspoo/marketplace/tests/seller_test.cc:111: Failure
+Expected equality of these values:
+  ""
+  q.get_sector()
+    Which is: "empty"
+[  FAILED  ] Seller.Sector (0 ms)
+[----------] 8 tests from Seller (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
+[  FAILED  ] 4 tests, listed below:
+[  FAILED  ] Seller.ConstructorParam
+[  FAILED  ] Seller.DefaultCopyConstructor
+[  FAILED  ] Seller.DefaultEqualOperator
+[  FAILED  ] Seller.Sector
+
+ 4 FAILED TESTS
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"seller_gtests" end time: Oct 27 12:27 CEST
+"seller_gtests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 27 12:27 CEST

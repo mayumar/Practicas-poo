@@ -25,6 +25,7 @@ class Person{
         inline std::string get_province() const {return province_;}
         inline std::string get_country() const {return country_;}
         inline int get_entry_year() const {return entry_year_;}
+        inline std::string get_name_surname() const {return (name_+" "+surname_);}
 
         inline void set_id(std::string id){id_=id;}
         inline void set_name(std::string name){name_=name;}
