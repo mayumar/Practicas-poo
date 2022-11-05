@@ -1,3 +1,6 @@
+//tv_main.cc
+//A little test of the "tv" class
+
 #include <iostream>
 #include "tv.h"
 

@@ -1,3 +1,9 @@
+//seller.h
+//A program which creates the class called "seller"
+
+//This class represents the person who will be selling
+//the products from the marketplace
+
 #ifndef SELLER_H
 #define SELLER_H
 

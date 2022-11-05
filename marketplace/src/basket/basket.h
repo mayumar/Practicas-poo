@@ -1,3 +1,9 @@
+//basket.h
+//A program which creates the class called "basket"
+
+//This class represents the list of products
+//that a client wants to buy something from the marketplace
+
 #ifndef BASKET_H
 #define BASKET_H
 

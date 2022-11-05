@@ -1,3 +1,6 @@
+//basket_main.cc
+//A little test of the "basket" class
+
 #include "basket.h"
 #include "../product/product.h"
 #include <iostream>

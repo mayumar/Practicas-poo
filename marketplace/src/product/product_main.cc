@@ -1,3 +1,6 @@
+//product_main.cc
+//A little test of the "product" class
+
 #include "product.h"
 #include <iostream>
 

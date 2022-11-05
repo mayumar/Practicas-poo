@@ -1,3 +1,9 @@
+//computer.h
+//A program which creates the class called "computer"
+
+//This class represents one of the different products
+//from the marketplace
+
 #ifndef COMPUTER_H
 #define COMPUTER_H
 

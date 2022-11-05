@@ -1,9 +1,9 @@
-person_gtests 6 0.000805653
-product_gtests 6 0.000649465
-tv_gtests 6 0.000502659
-computer_gtests 6 0.00062885
-basket_gtests 6 0.000757509
-basket_gtests2 6 0.000528966
-client_gtests 4 0.000779341
-seller_gtests 1 0.00357384
+person_gtests 8 0.000583939
+product_gtests 8 0.000487977
+tv_gtests 8 0.000542793
+computer_gtests 8 0.000367796
+basket_gtests 8 0.000629214
+basket_gtests2 8 0.000404708
+client_gtests 6 0.000423254
+seller_gtests 3 0.000823226
 ---

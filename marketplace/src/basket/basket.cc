@@ -1,3 +1,7 @@
+//basket.cc
+//A program that has the body of some of the functions
+//from the "basket" class
+
 #include "basket.h"
 #include <list>
 #include <map>

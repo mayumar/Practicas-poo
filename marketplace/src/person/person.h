@@ -1,3 +1,9 @@
+//person.h
+//A program which creates the class called "person.h"
+
+//This class represents the information of a person
+//who will be interacting with the marketplace
+
 #ifndef PERSON_H
 #define PERSON_H
 

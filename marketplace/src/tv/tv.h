@@ -1,3 +1,9 @@
+//tv.h
+//A program which creates the class called "tv"
+
+//This class represents one of the different products
+//from the marketplace
+
 #ifndef TV_H
 #define TV_H
 

@@ -1,3 +1,6 @@
+//compueter_main.cc
+//A little test of the "ccomputer" class
+
 #include "computer.h"
 #include <iostream>
 

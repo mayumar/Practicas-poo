@@ -1,3 +1,7 @@
+//tv.cc
+//A program that has the body of some of the functions
+//from the "tv" class
+
 #include "tv.h"
 
 bool Tv::set_inch(float inch){

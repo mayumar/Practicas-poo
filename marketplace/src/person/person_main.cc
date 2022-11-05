@@ -1,3 +1,6 @@
+//person_main.cc
+//A little test of the "person" class
+
 #include <iostream>
 #include <string>
 #include "person.h"

@@ -1,3 +1,9 @@
+//product.h
+//A program which creates the class called "product"
+
+//This class has the main information from every
+//product that we will be sold on the marketplace
+
 #ifndef PRODUCT_H
 #define PRODUCT_H
 

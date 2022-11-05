@@ -1,3 +1,10 @@
+//basket.h
+//A program which creates the class called "client"
+
+//This class represents a client
+//who want to by something from the marketplace
+
+
 #ifndef CLIENT_H
 #define CLIENT_H
 
