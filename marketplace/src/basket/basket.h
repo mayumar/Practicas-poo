@@ -16,18 +16,16 @@
 
 class Basket{
     private:
-        std::string id_;
         std::list<Product> product_list_;
         float total_;
         std::map<std::string, int> product_quantity_;
 
     public:
-        Basket(std::string id): id_(id){total_=0;}
+        inline Basket(){total_=0;}
+        inline ~Basket(){}
 
-        inline std::string get_id() const {return id_;}
         inline float get_total() const {return total_;}
-        inline void set_id(std::string id){id_=id;}
-
+        
         void add_product(Product product);
         bool delete_product(Product product);
         bool delete_product(std::string id);

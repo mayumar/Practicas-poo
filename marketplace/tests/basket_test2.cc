@@ -8,12 +8,12 @@
 #include "computer.h"
 
 TEST(Basket, ZeroProducts) {
-  Basket b("B1");
+  Basket b;
   EXPECT_EQ(0, b.get_size());
 }
 
 TEST(Basket, AddProduct) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   b.add_product(p1);
   b.add_product(p2);
@@ -25,7 +25,7 @@ TEST(Basket, AddProduct) {
 }
 
 TEST(Basket, AddMoreProducts) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   Tv t1("Tv1");
   Computer c1("C1", ComputerType::Server);
@@ -43,7 +43,7 @@ TEST(Basket, AddMoreProducts) {
 }
 
 TEST(Basket, DeleteProductsP) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   Tv t1("Tv1");
   Computer c1("C1", ComputerType::Server);
@@ -67,7 +67,7 @@ TEST(Basket, DeleteProductsP) {
 }
 
 TEST(Basket, DeleteProductsId) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   Tv t1("Tv1");
   Computer c1("C1", ComputerType::Server);
@@ -91,7 +91,7 @@ TEST(Basket, DeleteProductsId) {
 }
 
 TEST(Basket, DeleteProductsNoId) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   b.add_product(p1);
   b.add_product(p2);
@@ -109,11 +109,10 @@ TEST(Basket, DeleteProductsNoId) {
 }
 
 TEST(Basket, AddAndDeleteProducts) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   Tv t1("Tv1");
   Computer c1("C1", ComputerType::Server);
-  std::vector<std::string> v;
   b.add_product(p1);
   b.add_product(p2);
   b.add_product(p3);
@@ -132,13 +131,13 @@ TEST(Basket, AddAndDeleteProducts) {
 }
 
 TEST(Basket, BasketTotalZero) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1"), p2("P2"), p3("P3");
   EXPECT_FLOAT_EQ(0.0,b.get_total());
 }
 
 TEST(Basket, BasketTotal) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1", "Product 1", 100.5);
   Product p2("P2", "Product 2", 200.5);
   Product p3("P3", "Product 3", 300.5);
@@ -149,7 +148,7 @@ TEST(Basket, BasketTotal) {
 }
 
 TEST(Basket, BasketTotalDelete) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1", "Product 1", 100.5);
   Product p2("P2", "Product 2", 200.5);
   Product p3("P3", "Product 3", 300.5);
@@ -166,7 +165,7 @@ TEST(Basket, BasketTotalDelete) {
 }
 
 TEST(Basket, BasketTotalDeleteQuantities) {
-  Basket b("B1");
+  Basket b;
   Product p1("P1", "Product 1", 100.5);
   Product p2("P2", "Product 2", 200.5);
   Product p3("P3", "Product 3", 300.5);
@@ -189,6 +188,83 @@ TEST(Basket, BasketTotalDeleteQuantities) {
   EXPECT_FLOAT_EQ(501.0,b.get_total());
 }
 
+TEST(Basket, Basket_get_ids_empty) {
+  Basket b;
+  std::vector<std::string> vs;
+  vs=b.get_ids();
+  EXPECT_EQ(0, vs.size());
+}
+TEST(Basket, Basket_get_ids) {
+  Basket b;
+  Product p1("P1", "Product 1", 100.5);
+  Product p2("P2", "Product 2", 200.5);
+  Product p3("P3", "Product 3", 300.5);
+  b.add_product(p1);
+  b.add_product(p2);
+  b.add_product(p3);
+  std::vector<std::string> vs;
+  vs=b.get_ids();
+  EXPECT_EQ(3, vs.size());
+  EXPECT_EQ(vs[0], "P1");
+  EXPECT_EQ(vs[1], "P2");
+  EXPECT_EQ(vs[2], "P3");
+  b.delete_product(p3);
+  vs=b.get_ids();
+  EXPECT_EQ(2, vs.size());
+  EXPECT_EQ(vs[0], "P1");
+  EXPECT_EQ(vs[1], "P2");
+  b.add_product(p1);
+  vs=b.get_ids();
+  EXPECT_EQ(2, vs.size());
+  EXPECT_EQ(vs[0], "P1");
+  EXPECT_EQ(vs[1], "P2");
+  b.delete_product(p1);
+  vs=b.get_ids();
+  EXPECT_EQ(2, vs.size());
+  EXPECT_EQ(vs[0], "P1");
+  EXPECT_EQ(vs[1], "P2");
+  b.delete_product(p1);
+  b.delete_product(p2);
+  vs=b.get_ids();
+  EXPECT_EQ(0, vs.size());
+}
+TEST(Basket, Basket_get_qs_empty) {
+  Basket b;
+  std::vector<int> v;
+  v=b.get_qs();
+  EXPECT_EQ(0, v.size());
+}
+TEST(Basket, Basket_get_qs) {
+  Basket b;
+  Product p1("P1", "Product 1", 100.5);
+  Product p2("P2", "Product 2", 200.5);
+  Product p3("P3", "Product 3", 300.5);
+  b.add_product(p1);
+  b.add_product(p2);
+  b.add_product(p3);
+  std::vector<int> v;
+  v=b.get_qs();
+  EXPECT_EQ(3, v.size());
+  EXPECT_EQ(1, v[0]);
+  EXPECT_EQ(1, v[1]);
+  EXPECT_EQ(1, v[2]);
+  b.add_product(p3);
+  v=b.get_qs();
+  EXPECT_EQ(1, v[0]);
+  EXPECT_EQ(1, v[1]);
+  EXPECT_EQ(2, v[2]);
+  b.add_product(p1);
+  v=b.get_qs();
+  EXPECT_EQ(2, v[0]);
+  EXPECT_EQ(1, v[1]);
+  EXPECT_EQ(2, v[2]);
+  b.delete_product(p1);
+  b.delete_product(p3);
+  v=b.get_qs();
+  EXPECT_EQ(1, v[0]);
+  EXPECT_EQ(1, v[1]);
+  EXPECT_EQ(1, v[2]);
+}
 int main(int argc, char** argv)
 {
     ::testing::InitGoogleTest(&argc, argv);

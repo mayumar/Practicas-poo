@@ -75,6 +75,15 @@
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/src/seller/CMakeFiles/install.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/src/seller/CMakeFiles/install/local.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/src/seller/CMakeFiles/install/strip.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/market/CMakeFiles/market.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/market/CMakeFiles/market_main.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/market/CMakeFiles/test.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/market/CMakeFiles/edit_cache.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/market/CMakeFiles/rebuild_cache.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/market/CMakeFiles/list_install_components.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/market/CMakeFiles/install.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/market/CMakeFiles/install/local.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/src/market/CMakeFiles/install/strip.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/person_test.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/product_test.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/tv_test.dir

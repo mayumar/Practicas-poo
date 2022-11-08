@@ -9,16 +9,15 @@
 
 #include "../person/person.h"
 #include "../product/product.h"
-#include <list>
+#include "../basket/basket.h"
 #include <string>
 
-class Seller: public Person{
+class Seller: public Person, public Basket{
     private:
-        std::list<Product> product_sold_;
         std::string sector_;
 
     public:
-        Seller(std::string id,
+        inline Seller(std::string id,
                std::string name="empty",
                std::string surname="empty",
                std::string address="empty",
@@ -29,6 +28,7 @@ class Seller: public Person{
                std::string sector=""): Person(id, name, surname,
                                             address, town, province, country, entry_year),
                                             sector_(sector){}
+        inline ~Seller(){}
 
         inline std::string get_sector() const {return sector_;}
         void set_sector(std::string sector) {sector_=sector;}

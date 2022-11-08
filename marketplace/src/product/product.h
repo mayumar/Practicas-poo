@@ -15,7 +15,7 @@ class Product{
         float price_;
 
     public:
-        Product(std::string id,
+        inline Product(std::string id,
                 std::string name="empty",
                 float price=0.0,
                 std::string maker="empty",
@@ -23,6 +23,7 @@ class Product{
                         id_(id), name_(name),
                         price_(price), maker_(maker),
                         seller_(seller){}
+        inline ~Product(){}
         
         inline std::string get_id() const {return id_;}
         inline std::string get_name() const {return name_;}

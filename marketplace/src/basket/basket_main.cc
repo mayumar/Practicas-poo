@@ -7,7 +7,7 @@
 #include <vector>
 
 int main(){
-    Basket basket("GRTE6778");
+    Basket basket;
     Product p1("ID1", "Producto1", 5), p2("ID2", "Producto2", 6),
             p3("ID3", "Producto3", 2), p4("ID4", "Producto4", 7),
             p5("ID5", "Producto6", 9), p6("ID6", "Prodcuto6", 4);

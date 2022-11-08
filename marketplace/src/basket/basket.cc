@@ -19,6 +19,7 @@ bool Basket::delete_product(Product product){
             product_quantity_[product.get_id()]--;
 
             if(product_quantity_[product.get_id()]<=0){
+                product_quantity_.erase(product.get_id());
                 product_list_.erase(it);
             }
 
@@ -39,6 +40,7 @@ bool Basket::delete_product(std::string id){
             product_quantity_[id]--;
 
             if(product_quantity_[id]<=0){
+                product_quantity_.erase(id);
                 product_list_.erase(it);
             }
 

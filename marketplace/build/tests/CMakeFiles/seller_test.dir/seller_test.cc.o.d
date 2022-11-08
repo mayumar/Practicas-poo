@@ -271,5 +271,7 @@ tests/CMakeFiles/seller_test.dir/seller_test.cc.o: \
  /home/mayumar/Escritorio/practicaspoo/marketplace/src/seller/seller.h \
  /home/mayumar/Escritorio/practicaspoo/marketplace/src/seller/../person/person.h \
  /home/mayumar/Escritorio/practicaspoo/marketplace/src/seller/../product/product.h \
+ /home/mayumar/Escritorio/practicaspoo/marketplace/src/seller/../basket/basket.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
- /usr/include/c++/11/bits/list.tcc
+ /usr/include/c++/11/bits/list.tcc \
+ /home/mayumar/Escritorio/practicaspoo/marketplace/src/seller/../basket/../product/product.h

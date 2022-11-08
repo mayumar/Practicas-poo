@@ -1,5 +1,5 @@
-//compueter_main.cc
-//A little test of the "ccomputer" class
+//computer_main.cc
+//A little test of the "computer" class
 
 #include "computer.h"
 #include <iostream>

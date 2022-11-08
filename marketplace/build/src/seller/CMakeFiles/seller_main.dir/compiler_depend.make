@@ -155,12 +155,51 @@ src/seller/CMakeFiles/seller_main.dir/seller_main.cc.o: ../src/seller/seller_mai
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
   ../src/product/product.h \
+  ../src/basket/basket.h \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
   /usr/include/c++/11/bits/allocated_ptr.h \
   /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/bits/list.tcc
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  ../src/product/product.h
 
+
+/usr/include/c++/11/bits/vector.tcc:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+/usr/include/c++/11/bits/stl_vector.h:
+
+/usr/include/c++/11/bits/stl_uninitialized.h:
+
+/usr/include/c++/11/vector:
+
+/usr/include/c++/11/bits/erase_if.h:
+
+/usr/include/c++/11/bits/uses_allocator.h:
+
+/usr/include/c++/11/array:
+
+/usr/include/c++/11/bits/stl_relops.h:
+
+/usr/include/c++/11/bits/stl_map.h:
 
 /usr/include/c++/11/bits/list.tcc:
 
@@ -175,6 +214,8 @@ src/seller/CMakeFiles/seller_main.dir/seller_main.cc.o: ../src/seller/seller_mai
 /usr/include/asm-generic/errno.h:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/c++/11/utility:
 
 /usr/include/errno.h:
 
@@ -254,9 +295,13 @@ src/seller/CMakeFiles/seller_main.dir/seller_main.cc.o: ../src/seller/seller_mai
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
+../src/basket/basket.h:
+
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/c++/11/bits/invoke.h:
 
 /usr/include/x86_64-linux-gnu/bits/timex.h:
 
@@ -278,6 +323,8 @@ src/seller/CMakeFiles/seller_main.dir/seller_main.cc.o: ../src/seller/seller_mai
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/usr/include/c++/11/bits/node_handle.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
@@ -285,6 +332,8 @@ src/seller/CMakeFiles/seller_main.dir/seller_main.cc.o: ../src/seller/seller_mai
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/c++/11/bits/exception.h:
+
+/usr/include/c++/11/map:
 
 /usr/include/c++/11/bits/range_access.h:
 
@@ -299,6 +348,8 @@ src/seller/CMakeFiles/seller_main.dir/seller_main.cc.o: ../src/seller/seller_mai
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/FILE.h:
+
+/usr/include/c++/11/bits/stl_multimap.h:
 
 /usr/include/features.h:
 
@@ -371,6 +422,10 @@ src/seller/CMakeFiles/seller_main.dir/seller_main.cc.o: ../src/seller/seller_mai
 /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
 /usr/include/c++/11/bits/move.h:
+
+/usr/include/c++/11/tuple:
+
+/usr/include/c++/11/bits/stl_tree.h:
 
 /usr/include/c++/11/type_traits:
 

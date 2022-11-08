@@ -1,10 +1,10 @@
-Start testing: Nov 05 13:57 CET
+Start testing: Nov 08 21:10 CET
 ----------------------------------------------------------
 1/8 Testing: person_gtests
 1/8 Test: person_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/person_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"person_gtests" start time: Nov 05 13:57 CET
+"person_gtests" start time: Nov 08 21:10 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 6 tests from 1 test suite.
@@ -31,7 +31,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"person_gtests" end time: Nov 05 13:57 CET
+"person_gtests" end time: Nov 08 21:10 CET
 "person_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -39,7 +39,7 @@ Test Passed.
 2/8 Test: product_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/product_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"product_gtests" start time: Nov 05 13:57 CET
+"product_gtests" start time: Nov 08 21:10 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -60,7 +60,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"product_gtests" end time: Nov 05 13:57 CET
+"product_gtests" end time: Nov 08 21:10 CET
 "product_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -68,7 +68,7 @@ Test Passed.
 3/8 Test: tv_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/tv_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"tv_gtests" start time: Nov 05 13:57 CET
+"tv_gtests" start time: Nov 08 21:10 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 4 tests from 1 test suite.
@@ -91,7 +91,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"tv_gtests" end time: Nov 05 13:57 CET
+"tv_gtests" end time: Nov 08 21:10 CET
 "tv_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -99,7 +99,7 @@ Test Passed.
 4/8 Test: computer_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/computer_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"computer_gtests" start time: Nov 05 13:57 CET
+"computer_gtests" start time: Nov 08 21:10 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 3 tests from 1 test suite.
@@ -120,7 +120,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"computer_gtests" end time: Nov 05 13:57 CET
+"computer_gtests" end time: Nov 08 21:10 CET
 "computer_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -128,16 +128,12 @@ Test Passed.
 5/8 Test: basket_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/basket_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"basket_gtests" start time: Nov 05 13:57 CET
+"basket_gtests" start time: Nov 08 21:10 CET
 Output:
 ----------------------------------------------------------
-[==========] Running 6 tests from 1 test suite.
+[==========] Running 4 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 6 tests from Basket
-[ RUN      ] Basket.ConstructorDefaultParam
-[       OK ] Basket.ConstructorDefaultParam (0 ms)
-[ RUN      ] Basket.Basket_set_id
-[       OK ] Basket.Basket_set_id (0 ms)
+[----------] 4 tests from Basket
 [ RUN      ] Basket.Basket_add_product
 [       OK ] Basket.Basket_add_product (0 ms)
 [ RUN      ] Basket.Basket_delete_product1
@@ -146,16 +142,16 @@ Output:
 [       OK ] Basket.Basket_delete_product2 (0 ms)
 [ RUN      ] Basket.Basket_delete_basket
 [       OK ] Basket.Basket_delete_basket (0 ms)
-[----------] 6 tests from Basket (0 ms total)
+[----------] 4 tests from Basket (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 6 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 6 tests.
+[==========] 4 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 4 tests.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket_gtests" end time: Nov 05 13:57 CET
+"basket_gtests" end time: Nov 08 21:10 CET
 "basket_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -163,12 +159,12 @@ Test Passed.
 6/8 Test: basket_gtests2
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/basket_test2"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"basket_gtests2" start time: Nov 05 13:57 CET
+"basket_gtests2" start time: Nov 08 21:10 CET
 Output:
 ----------------------------------------------------------
-[==========] Running 11 tests from 1 test suite.
+[==========] Running 15 tests from 1 test suite.
 [----------] Global test environment set-up.
-[----------] 11 tests from Basket
+[----------] 15 tests from Basket
 [ RUN      ] Basket.ZeroProducts
 [       OK ] Basket.ZeroProducts (0 ms)
 [ RUN      ] Basket.AddProduct
@@ -191,16 +187,24 @@ Output:
 [       OK ] Basket.BasketTotalDelete (0 ms)
 [ RUN      ] Basket.BasketTotalDeleteQuantities
 [       OK ] Basket.BasketTotalDeleteQuantities (0 ms)
-[----------] 11 tests from Basket (0 ms total)
+[ RUN      ] Basket.Basket_get_ids_empty
+[       OK ] Basket.Basket_get_ids_empty (0 ms)
+[ RUN      ] Basket.Basket_get_ids
+[       OK ] Basket.Basket_get_ids (0 ms)
+[ RUN      ] Basket.Basket_get_qs_empty
+[       OK ] Basket.Basket_get_qs_empty (0 ms)
+[ RUN      ] Basket.Basket_get_qs
+[       OK ] Basket.Basket_get_qs (0 ms)
+[----------] 15 tests from Basket (0 ms total)
 
 [----------] Global test environment tear-down
-[==========] 11 tests from 1 test suite ran. (0 ms total)
-[  PASSED  ] 11 tests.
+[==========] 15 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 15 tests.
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"basket_gtests2" end time: Nov 05 13:57 CET
+"basket_gtests2" end time: Nov 08 21:10 CET
 "basket_gtests2" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -208,7 +212,7 @@ Test Passed.
 7/8 Test: client_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/client_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"client_gtests" start time: Nov 05 13:57 CET
+"client_gtests" start time: Nov 08 21:10 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 8 tests from 1 test suite.
@@ -239,7 +243,7 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"client_gtests" end time: Nov 05 13:57 CET
+"client_gtests" end time: Nov 08 21:10 CET
 "client_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -247,7 +251,7 @@ Test Passed.
 8/8 Test: seller_gtests
 Command: "/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/seller_test"
 Directory: /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests
-"seller_gtests" start time: Nov 05 13:57 CET
+"seller_gtests" start time: Nov 08 21:10 CET
 Output:
 ----------------------------------------------------------
 [==========] Running 8 tests from 1 test suite.
@@ -278,8 +282,8 @@ Output:
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"seller_gtests" end time: Nov 05 13:57 CET
+"seller_gtests" end time: Nov 08 21:10 CET
 "seller_gtests" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Nov 05 13:57 CET
+End testing: Nov 08 21:10 CET

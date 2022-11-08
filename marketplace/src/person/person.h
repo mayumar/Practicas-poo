@@ -22,6 +22,7 @@ class Person{
                std::string province="empty",
                std::string country="empty", 
                int entry_year=0);
+        inline ~Person(){}
         
         inline std::string get_id() const {return id_;}
         inline std::string get_name() const {return name_;}

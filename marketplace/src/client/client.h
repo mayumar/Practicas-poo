@@ -12,13 +12,12 @@
 #include "../basket/basket.h"
 #include <string>
 
-class Client: public Person{
+class Client: public Person, public Basket{
     private:
-        Basket basket_;
         int premium_;
 
     public:
-        Client(std::string id,
+        inline Client(std::string id,
                std::string name="empty",
                std::string surname="empty", 
                std::string address="empty",
@@ -27,7 +26,9 @@ class Client: public Person{
                std::string country="empty", 
                int entry_year=0,
                int premium=0): Person(id, name, surname, address, town,
-                               province, country, entry_year), basket_(id), premium_(premium){}
+                               province, country, entry_year),
+                               premium_(premium){}
+        inline ~Client(){}
 
         inline int get_premium() const {return premium_;}
         inline void set_premium(int premium) {premium_=premium;}

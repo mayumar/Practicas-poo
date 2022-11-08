@@ -334,14 +334,18 @@ tests/CMakeFiles/seller_test.dir/seller_test.cc.o: ../tests/seller_test.cc \
   ../src/seller/seller.h \
   ../src/person/person.h \
   ../src/product/product.h \
+  ../src/basket/basket.h \
   /usr/include/c++/11/list \
   /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/list.tcc
+  /usr/include/c++/11/bits/list.tcc \
+  ../src/product/product.h
 
 
 /usr/include/c++/11/bits/stl_list.h:
 
 /usr/include/c++/11/list:
+
+../src/basket/basket.h:
 
 ../src/product/product.h:
 
