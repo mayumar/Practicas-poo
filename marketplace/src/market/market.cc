@@ -148,22 +148,22 @@ void Market::dump_market(){
     std::vector<std::string> products;
     std::vector<int> quantities;
 
-    file<<"|----------------------------------------|"<<std::endl;
-    file<<"|CLIENT ID   |PRODUCT ID |PRODUCT QTY    |"<<std::endl;
+    file<<"|-----------------------------------|"<<std::endl;
+    file<<"|CLIENT ID |PRODUCT ID |PRODUCT QTY |"<<std::endl;
     
     for(it=client_list_.begin(); it!=client_list_.end(); it++){
         products=it->get_ids();
         quantities=it->get_qs();
 
         for(int i=0; i<it->get_size(); i++){
-            file<<"|"<<it->get_id()<<"    |"<<products[i]<<"    |"<<quantities[i]<<"    |"<<std::endl;
+            file<<"|"<<it->get_id()<<"        |"<<products[i]<<"         |"<<quantities[i]<<"           |"<<std::endl;
         }
 
     }
 
-    file<<"|----------------------------------------|"<<std::endl;
-    file<<"|TOTAL: "<<get_money_in_basket()<<"€         |"<<std::endl;
-    file<<"|----------------------------------------|"<<std::endl;
+    file<<"|-----------------------------------|"<<std::endl;
+    file<<"|TOTAL: "<<get_money_in_basket()<<"€                        |"<<std::endl;
+    file<<"|-----------------------------------|"<<std::endl;
 
     file.close();
     
