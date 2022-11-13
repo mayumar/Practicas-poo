@@ -283,6 +283,20 @@ seller_test/fast:
 	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/seller_test.dir/build.make tests/CMakeFiles/seller_test.dir/build
 .PHONY : seller_test/fast
 
+# Convenience name for target.
+tests/CMakeFiles/market_test.dir/rule:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/market_test.dir/rule
+.PHONY : tests/CMakeFiles/market_test.dir/rule
+
+# Convenience name for target.
+market_test: tests/CMakeFiles/market_test.dir/rule
+.PHONY : market_test
+
+# fast build rule for target.
+market_test/fast:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/market_test.dir/build.make tests/CMakeFiles/market_test.dir/build
+.PHONY : market_test/fast
+
 basket_test.o: basket_test.cc.o
 .PHONY : basket_test.o
 
@@ -378,6 +392,30 @@ computer_test.s: computer_test.cc.s
 computer_test.cc.s:
 	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/computer_test.dir/build.make tests/CMakeFiles/computer_test.dir/computer_test.cc.s
 .PHONY : computer_test.cc.s
+
+market_test.o: market_test.cc.o
+.PHONY : market_test.o
+
+# target to build an object file
+market_test.cc.o:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/market_test.dir/build.make tests/CMakeFiles/market_test.dir/market_test.cc.o
+.PHONY : market_test.cc.o
+
+market_test.i: market_test.cc.i
+.PHONY : market_test.i
+
+# target to preprocess a source file
+market_test.cc.i:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/market_test.dir/build.make tests/CMakeFiles/market_test.dir/market_test.cc.i
+.PHONY : market_test.cc.i
+
+market_test.s: market_test.cc.s
+.PHONY : market_test.s
+
+# target to generate assembly for a file
+market_test.cc.s:
+	cd /home/mayumar/Escritorio/practicaspoo/marketplace/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/market_test.dir/build.make tests/CMakeFiles/market_test.dir/market_test.cc.s
+.PHONY : market_test.cc.s
 
 person_test.o: person_test.cc.o
 .PHONY : person_test.o
@@ -492,6 +530,7 @@ help:
 	@echo "... basket_test2"
 	@echo "... client_test"
 	@echo "... computer_test"
+	@echo "... market_test"
 	@echo "... person_test"
 	@echo "... product_test"
 	@echo "... seller_test"
@@ -508,6 +547,9 @@ help:
 	@echo "... computer_test.o"
 	@echo "... computer_test.i"
 	@echo "... computer_test.s"
+	@echo "... market_test.o"
+	@echo "... market_test.i"
+	@echo "... market_test.s"
 	@echo "... person_test.o"
 	@echo "... person_test.i"
 	@echo "... person_test.s"

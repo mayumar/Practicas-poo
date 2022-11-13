@@ -484,6 +484,19 @@ seller_test/fast:
 .PHONY : seller_test/fast
 
 #=============================================================================
+# Target rules for targets named market_test
+
+# Build rule for target.
+market_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 market_test
+.PHONY : market_test
+
+# fast build rule for target.
+market_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/market_test.dir/build.make tests/CMakeFiles/market_test.dir/build
+.PHONY : market_test/fast
+
+#=============================================================================
 # Target rules for targets named gmock
 
 # Build rule for target.
@@ -564,6 +577,7 @@ help:
 	@echo "... gtest_main"
 	@echo "... market"
 	@echo "... market_main"
+	@echo "... market_test"
 	@echo "... person"
 	@echo "... person_main"
 	@echo "... person_test"

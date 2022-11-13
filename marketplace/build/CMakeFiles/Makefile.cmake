@@ -123,6 +123,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "tests/CMakeFiles/basket_test2.dir/DependInfo.cmake"
   "tests/CMakeFiles/client_test.dir/DependInfo.cmake"
   "tests/CMakeFiles/seller_test.dir/DependInfo.cmake"
+  "tests/CMakeFiles/market_test.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"

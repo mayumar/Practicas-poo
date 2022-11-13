@@ -92,6 +92,7 @@
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/basket_test2.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/client_test.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/seller_test.dir
+/home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/market_test.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/test.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/edit_cache.dir
 /home/mayumar/Escritorio/practicaspoo/marketplace/build/tests/CMakeFiles/rebuild_cache.dir

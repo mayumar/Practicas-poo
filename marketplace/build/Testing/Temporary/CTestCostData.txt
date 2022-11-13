@@ -1,9 +1,11 @@
-person_gtests 9 0.000535977
-product_gtests 9 0.000261556
-tv_gtests 9 0.000259903
-computer_gtests 9 0.00025691
-basket_gtests 9 0.000271775
-basket_gtests2 9 0.000279817
-client_gtests 7 0.000687267
-seller_gtests 4 0.000881765
+person_gtests 10 0.000515194
+product_gtests 10 0.000353378
+tv_gtests 10 0.000346639
+computer_gtests 10 0.000331727
+basket_gtests 10 0.000354363
+basket_gtests2 10 0.000399009
+client_gtests 8 0.000586216
+seller_gtests 5 0.00101088
+market_gtests 0 0
 ---
+market_gtests
