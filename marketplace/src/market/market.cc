@@ -131,7 +131,7 @@ bool Market::delete_product_client(Product p, std::string id_client){
 
 float Market::get_money_in_basket(){
     std::list<Client>::iterator it;
-    float total;
+    float total=0;
 
     for(it=client_list_.begin(); it!=client_list_.end(); it++){
         total+=it->get_total();
