@@ -84,7 +84,7 @@ int main(){
                 std::cout<<"Introduzca el id del cliente a añadir el producto"<<std::endl;
                 std::cin>>client_id;
 
-                for(int i=0; i<productos.size() && anadido==false; i++){
+                for(int i=0; i<productos.size(); i++){
                     if(product_id==productos[i].get_id()){
                         anadido=m.add_product_client(productos[i], client_id);
                     }
@@ -97,7 +97,7 @@ int main(){
                 }
                 
                 break;
-                
+
             case 2:
                 std::cout<<"Opcion 2"<<std::endl;
                 break;
