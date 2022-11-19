@@ -11,7 +11,9 @@ int main(){
     Market m("Buenas tardes");
     Client c1("C1"), c2("C2"), c3("C3"), c4("C4"), c5("C5");
     Seller s1("S1"), s2("S2"), s3("S3"), s4("S4"), s5("S5");
-    Product p1("P1"), p2("P2"), p3("P3"), p4("P4"), p5("P5");
+    Product p1("P1", "Producto 1", 100.11), p2("P2", "Producto 2", 200.22),
+            p3("P3", "Producto 3", 300.33), p4("P4", "Producto 4", 400.44),
+            p5("P5", "Producto 5", 500.55);
 
     std::vector<Product>productos={p1, p2, p3, p4, p5};
 
@@ -75,7 +77,7 @@ int main(){
         }
         
         std::string client_id, product_id;
-        bool anadido=false;
+        bool flag=false;
         switch(opt){
             case 1:
 
@@ -86,23 +88,43 @@ int main(){
 
                 for(int i=0; i<productos.size(); i++){
                     if(product_id==productos[i].get_id()){
-                        anadido=m.add_product_client(productos[i], client_id);
+                        flag=m.add_product_client(productos[i], client_id);
                     }
                 }
 
-                if(anadido==false){
+                if(flag==false){
                     std::cout<<std::endl<<"Error: no se ha podido añadir el producto"<<std::endl;
-                }else if(anadido==true){
+                }else if(flag==true){
                     std::cout<<std::endl<<"El producto ha sido añadido con exito"<<std::endl;
                 }
                 
                 break;
 
             case 2:
-                std::cout<<"Opcion 2"<<std::endl;
+                
+                std::cout<<"Introduzca el id del producto a borrar"<<std::endl;
+                std::cin>>product_id;
+                std::cout<<"Introduzca el id del cliente a borrar el producto"<<std::endl;
+                std::cin>>client_id;
+
+                for(int i=0; i<productos.size(); i++){
+                    if(product_id==productos[i].get_id()){
+                        flag=m.delete_product_client(productos[i], client_id);
+                    }
+                }
+
+                if(flag==false){
+                    std::cout<<std::endl<<"Error: no se ha podido borrar el producto"<<std::endl;
+                }else if(flag==true){
+                    std::cout<<std::endl<<"El producto ha sido borrado con exito"<<std::endl;
+                }
+                
+
                 break;
             case 3:
-                std::cout<<"Opcion 3"<<std::endl;
+                
+                m.dump_market();
+
                 break;
         }
         
